@@ -4,12 +4,10 @@
     <ul>
       <li class="item" v-for="item of recommendList" :key="item.id">
         <img class="item-img" :src="item.imgUrl" />
-        <div>
-          <div class="item-info">
-            <p class="item-title">{{item.desc}}</p>
-            <p class="item-desc">{{item.desc}}</p>
-            <button class="item-button">查看详情</button>
-          </div>
+        <div class="item-info">
+          <p class="item-title">{{item.desc}}</p>
+          <p class="item-desc">{{item.desc}}</p>
+          <button class="item-button">查看详情</button>
         </div>
       </li>
     </ul>
@@ -65,7 +63,7 @@ export default {
     .item-info
       flex : 1
       padding: .1rem
-      max-width : 4.5rem
+      min-width : 0
       .item-title
         line-height : .54rem
         font-size : .32rem
