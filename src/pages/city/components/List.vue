@@ -113,10 +113,8 @@ export default {
           text-align : center
           border: .02rem solid #ccc
           border-radius : .06rem
-          color : $darkTextColor
     .item-list
       .item
         line-height : .76rem
         padding-left : .2rem
-        color : $darkTextColor
 </style>
