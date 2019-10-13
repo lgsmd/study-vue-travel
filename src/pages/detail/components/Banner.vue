@@ -1,6 +1,9 @@
 <template>
   <div>
-    <div class="banner" @click="handleBannerClick">
+    <div
+      class="banner"
+      @click="handleBannerClick"
+    >
       <img class="banner-img"
            :src="bannerImg"/>
       <div class="banner-info">
