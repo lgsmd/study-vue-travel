@@ -53,6 +53,9 @@ export default {
   },
   mounted () {
     this.getDetailInfo()
+  },
+  activated () {
+    this.getDetailInfo()
   }
 }
 </script>
